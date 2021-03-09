@@ -1,0 +1,439 @@
+
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Recursive&display=swap" rel="stylesheet"> -->
+    <title>Orientoy</title>
+    <link rel="shortcut icon" type="imagem/png" href="imagens/logo2.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <link href="style.css" rel="stylesheet">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+      /* Make the image fully responsive */
+      .carousel-inner img {
+        width: 100%;
+        height: 100%;
+      }
+      </style>
+  </head>
+  <body>
+  
+  <nav class="navbar navbar-expand-md bgk navbar-dark">
+
+    <img src="imagens/logo2.png" alt="logo" style="width:60px;">
+  </a>
+  
+    <button style="border-color: white;" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse bgk " id="collapsibleNavbar">
+      <ul  class="navbar-nav topicos ">
+        <li class="nav-item ">
+          <a  style="color:  rgb(255, 23, 23);" class="nav-link link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link link" href="#">Produtos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link link" href="#">Perguntas</a>
+        </li> 
+        <li class="nav-item">
+          <a class="nav-link link" href="#">
+            Rastreamento
+          </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle link" href="#" id="navbardrop" data-toggle="dropdown">
+            Contato
+          </a>
+          <div class="dropdown-menu bgk">
+            <a class="dropdown-item" href="#">Link 1</a>
+            <a class="dropdown-item" href="#">Link 2</a>
+            <a class="dropdown-item" href="#">Link 3</a>
+          </div>
+        </li>   
+      </ul>
+    </div>  
+  </nav>
+<div style="width: 100%;background-color: rgb(255, 23, 23);height: 3px;"></div>
+  
+<img id="imagem" class="img-fluid" src="imagens/banner173.webp" alt="">
+<div class="d-flex justify-content-center mt-2">
+  <div id="mudar1" onclick="alterar()" class="mude"></div> 
+  <div id="mudar2" onclick="alterar2()" div class="ml-1 mude"></div>
+  <div class=" ml-1 mude"></div>
+</div>
+
+<div class="row">
+  <div class="col-lg-4">
+    <div class="d-flex justify-content-center ">
+
+      <h2 style="color: rgb(7, 30, 64);" class="lanch3 mt-3">Lançamentos</h2>
+ 
+  </div>
+  </div>
+  <div class="col-lg-4"></div>
+  <div class="col-lg-4"></div>
+
+</div>
+<div class="row">
+  <div class="col-lg-3">
+    <div class="d-flex justify-content-center ">
+
+    <div class="areaprodutos mt-2 mb-2">
+      <div class="d-flex justify-content-center ">
+      <div class="areaimg mb-3">
+        <img class="img-fluid" src="imagens/capeta.png" alt="">
+      </div>
+    </div>
+
+    <h6 class="lanch5 ml-2 mr-2 mt-5">ANIMUS EZIO - 1/4 SCALE STATUE - ASSASSIN'S CREED - PURE ARTS</h6>
+    <div class="d-flex justify-content-center ">
+      <h3 class="lanch5 ml-2 mr-2 mt-1">R$8.199,00</h3>
+    </div>
+    <div class="d-flex justify-content-center ">
+      <h6 class="fontpreço ml-2 mr-2 ">até 12x de R$683,25 sem juros</h6>
+    </div>
+    
+    <div class="d-flex justify-content-center ">
+<a class="efeito-3" href=""><b>COMPRAR</b></a>
+</div>
+<br>
+    </div>
+  </div>
+
+  </div>
+  <div class="col-lg-3">
+    <div class="d-flex justify-content-center ">
+
+      <div class="areaprodutos mt-2 mb-2">
+        <div class="d-flex justify-content-center ">
+        <div class="areaimg mb-3">
+          <img id="img3" onmouseover="mudarfoto3()" class="img-fluid" src="imagens/mouse.PNG" alt="">
+        </div>
+      </div>
+  
+      <h6 class="lanch5 ml-2 mr-2 mt-5">GAMEPAD CONTROLADOR GAMING TECLADO MOUSE</h6>
+      <div class="d-flex justify-content-center ">
+        <h3 class="lanch5 ml-2 mr-2 mt-1">R$287,00</h3>
+      </div>
+      <div class="d-flex justify-content-center ">
+        <h6 class="fontpreço ml-2 mr-2 ">até 12x de R$23,91 sem juros</h6>
+      </div>
+      
+      <div class="d-flex justify-content-center ">
+  <a class="efeito-3" href=""><b>COMPRAR</b></a>
+  </div>
+  <br>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3">
+    <div class="d-flex justify-content-center ">
+
+      <div class="areaprodutos mt-2 mb-2">
+        <div class="d-flex justify-content-center ">
+        <div class="areaimg mb-3">
+          <div class="d-flex justify-content-center ">
+          <img style="border-radius: 8px;" id="img2" onmouseover="mudarfoto2()" width="260PX" class="mt-2" src="imagens/goku1.PNG" alt="">
+        </div>
+      </div>
+    </div>
+  
+      <h6 class="lanch5 ml-2 mr-2 mt-5">  LÂMPADA DA NOITE 3D GOKU</h6>
+      <div class="d-flex justify-content-center ">
+        <h3 class="lanch5 ml-2 mr-2 mt-1">R$160,00</h3>
+      </div>
+      <div class="d-flex justify-content-center ">
+        <h6 class="fontpreço ml-2 mr-2 ">até 12x de R$13,33 sem juros</h6>
+      </div>
+      
+      <div class="d-flex justify-content-center ">
+  <a class="efeito-3 mt-3" href=""><b>COMPRAR</b></a>
+  </div>
+  <br>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3">
+    <div class="d-flex justify-content-center ">
+
+      <div class="areaprodutos mt-2 mb-2">
+        <div class="d-flex justify-content-center ">
+        <div class="areaimg mb-3">
+          <img id="img1" onmouseover="mudarfoto()" class="img-fluid" src="imagens/suporte1.PNG" alt="">
+        </div>
+      </div>
+  
+      <h6 class="lanch5 ml-2 mr-2 mt-5">SUPORTE DE MESA PORTÁTIL COM DUPLO VENTILADOR </h6>
+      <div class="d-flex justify-content-center ">
+        <h3 class="lanch5 ml-2 mr-2 mt-1">R$81,99</h3>
+      </div>
+      <div class="d-flex justify-content-center ">
+        <h6 class="fontpreço ml-2 mr-2 ">até 12x de R$6,83 sem juros</h6>
+      </div>
+      
+      <div class="d-flex justify-content-center ">
+  <a class="efeito-3" href=""><b>COMPRAR</b></a>
+  </div>
+  <br>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+
+  </body>
+  </html>
+  
+  
+  
+
+
+
+
+<script>
+function mudarfoto(){
+ 
+var img1=document.getElementById("img1")
+if(img1.src==="file:///C:/Users/joaog/OneDrive/%C3%81rea%20de%20Trabalho/site%20felps/imagens/suporte1.PNG"){
+  img1.src="imagens/suporte2.PNG"
+}else{
+  img1.src="imagens/suporte1.PNG"
+}
+
+}
+
+function mudarfoto2(){
+
+var img2=document.getElementById("img2")
+if(img2.src==="file:///C:/Users/joaog/OneDrive/%C3%81rea%20de%20Trabalho/site%20felps/imagens/goku1.PNG"){
+  img2.src="imagens/goku2.PNG"
+}else{
+  img2.src="imagens/goku1.PNG"
+}
+
+}
+function mudarfoto3(){
+
+var img3=document.getElementById("img3")
+if(img3.src==="file:///C:/Users/joaog/OneDrive/%C3%81rea%20de%20Trabalho/site%20felps/imagens/mouse.PNG"){
+  img3.src="imagens/teclado.PNG"
+}else{
+  img3.src="imagens/mouse.PNG"
+}
+
+}
+
+
+
+  function alterar(){
+var img=document.getElementById("imagem")
+var id=document.getElementById("mudar1")
+var id2=document.getElementById("mudar2")
+
+id.style.backgroundColor="grey"
+id2.style.backgroundColor="rgb(7, 30, 64)"
+  img.src="imagens/banner173.webp"
+  
+
+
+
+  }   
+  function alterar2(){
+var img=document.getElementById("imagem")
+var id=document.getElementById("mudar1")
+var id2=document.getElementById("mudar2")
+
+id.style.backgroundColor="rgb(7, 30, 64)"
+id2.style.backgroundColor="grey"
+  img.src="imagens/banner2.webp"
+  
+
+
+
+  }   
+
+
+
+  let valor=0
+  let valor1=2
+  chamar()
+  function chamar(){
+      setTimeout(()=> Trocar(),8500)
+     
+      
+  }
+  function Trocar(){
+    var id=document.getElementById("mudar1")
+    var id2=document.getElementById("mudar2")
+      if(valor1>valor){
+          document.getElementById("imagem").src="imagens/banner2.webp"
+         
+                  id.style.backgroundColor="rgb(7, 30, 64)"
+                  id2.style.backgroundColor="grey"
+          valor+=2
+          chamar()
+      }
+      else{
+          document.getElementById("imagem").src="imagens/banner173.webp"
+      
+
+id2.style.backgroundColor="rgb(7, 30, 64)"
+id.style.backgroundColor="grey"
+          valor1+=2
+          chamar()
+      }
+   
+  }
+
+
+
+  let valorq=0
+  let valorq1=2
+  chamar2()
+  function chamar2(){
+      setTimeout(()=> Trocar2(),8500)
+
+  }
+  function Trocar2(){
+   
+      if(valorq1>valorq){
+          document.getElementById("imagem2").src="1990_b1.png"
+         
+          
+          valorq+=2
+          chamar2()
+      }
+      else{
+          document.getElementById("imagem2").src="1990_b2.png"
+          valorq1+=2
+          chamar2()
+      }
+   
+  }
+
+  let valore=0
+  let valore1=2
+  chamar3()
+  function chamar3(){
+      setTimeout(()=> Trocar3(),8500)
+
+  }
+  function Trocar3(){
+    
+      if(valore1>valore){
+          document.getElementById("imagem3").src="palmeiras.png"
+         
+          
+          valore+=2
+          chamar3()
+      }
+      else{
+          document.getElementById("imagem3").src="maradona.png"
+          valore1+=2
+          chamar3()
+      }
+   
+  }
+
+
+ let valory=0
+  let valory1=2
+  chamardepoimento()
+  function chamardepoimento(){
+      setTimeout(()=> Trocardepoimento(),9000)
+
+  }
+  function Trocardepoimento(){
+      if(valory1>valory){
+          document.getElementById("cli1").src="cliente5.jpeg"
+          document.getElementById("dep1").innerHTML="Boa tarde quero agradecer pelo manto sagrador chegou ontem!!!Isso aqui é Flamengo ❤️🖤🇦🇱🚩🏴🔴⚫"
+          document.getElementById("nom1").innerHTML="Pedro"  
+         
+          
+          valory+=2
+          chamardepoimento()
+      }
+      else{
+        document.getElementById("cli1").src="cliente4.jpeg"
+          document.getElementById("dep1").innerHTML="A roupa é perfeita qualidade surpreendente recomendo muito."
+          document.getElementById("nom1").innerHTML="José"  
+          valory1+=2
+          chamardepoimento()
+      }
+   
+  } 
+
+
+  let valorz=0
+  let valorz1=2
+  chamardepoimento2()
+  function chamardepoimento2(){
+      setTimeout(()=> Trocardepoimento2(),9900)
+
+  }
+  function Trocardepoimento2(){
+      if(valorz1>valorz){
+          document.getElementById("cli2").src="cliente6.jpeg"
+          document.getElementById("dep2").innerHTML="Só pra agradecer!!!!!<br>Amei a blusa 🥰🖤❤️"
+          document.getElementById("nom2").innerHTML="Ricardo"  
+         
+          
+          valorz+=2
+          chamardepoimento2()
+      }
+      else{
+        document.getElementById("cli2").src="cliente2.jpeg"
+          document.getElementById("dep2").innerHTML="Haha chegou mano vlw mesmo produto de boa qualidade vale a pena obrigado 💪👌👌"
+          document.getElementById("nom2").innerHTML="Breno"  
+          valorz1+=2
+          chamardepoimento2()
+      }
+   
+  } 
+
+
+
+  
+  let valorh=0
+  let valorh1=2
+  chamardepoimento3()
+  function chamardepoimento3(){
+      setTimeout(()=> Trocardepoimento3(),9800)
+
+  }
+  function Trocardepoimento3(){
+      if(valorh1>valorh){
+          document.getElementById("cli3").src="cliente1.jpeg"
+          document.getElementById("dep3").innerHTML="Ótima qualidade do item, ótimo valor, ótima velocidade de entrega e ótimo serviço geral."
+          document.getElementById("nom3").innerHTML="Fernando"  
+         
+          
+          valorh+=2
+          chamardepoimento3()
+      }
+      else{
+        document.getElementById("cli3").src="cliente3.jpeg"
+          document.getElementById("dep3").innerHTML="Chegou minha camisa.Produto muito bom."
+          document.getElementById("nom3").innerHTML="Caio"  
+          valorh1+=2
+          chamardepoimento3()
+      }
+   
+  }
+
+  
+   
+</script>
+
+</body>
+</html>

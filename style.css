@@ -1,0 +1,96 @@
+.menu{
+
+}
+.topicos{
+padding-left: 20px;
+}
+
+.link{
+
+    font-size: 16px;
+    /* font-family:Arial, Helvetica, sans-serif; */
+    font-family: 'Comfortaa', cursiva;
+    color:  rgb(255, 23, 23);
+}
+
+.bgk{
+    background-color: rgb(7, 30, 64);
+}
+.mude{
+    width: 40px;
+    height: 5px;
+    background-color: rgb(7, 30, 64);
+    border-radius: 12px;
+}
+.lanc{
+
+    background-color: rgb(7, 30, 64);
+    height: 37px;
+    width: 260px;
+    border-radius: 8px;
+
+}
+.lanch3{
+    font-family: 'Comfortaa', cursiva;
+    color: white;
+    text-align: center;
+}
+.lanch5{
+    font-family: 'Comfortaa', cursiva;
+    color: rgb(7, 30, 64);
+    text-align: center;
+}
+
+.areaprodutos{
+
+    width: 300px;
+    height: 449px;
+    background-color: white;
+border-radius: 5px;
+}
+.areaprodutos:hover{
+
+    /* background-color: white; */
+    box-shadow: inset 0 0 0 3px rgba(7, 30, 64, 0.603); 
+    box-shadow:         -12px 12px 12px 12px  ;
+}
+
+.efeito-3{
+    background:    rgb(7, 30, 64)  ;
+    color:white ;
+    /* border-color:  #32414F; */
+    width: 210px;
+    /* box-shadow: inset 0 0 0 2px ; */
+    font-family:'Comfortaa', cursive ;
+    font-size: 20px;
+  border-radius: 17px;
+          /* box-shadow:         -10px 12px 7px ; */
+          text-decoration: none;
+          text-align: center;
+          border-color: black;
+          padding: 5.5px;
+  }
+  
+  .efeito-3:hover{
+    /* background-color:#02b502;
+ 
+     box-shadow: inset 0 0 0 3px rgb(166,207,229); 
+    width: 100px;
+    border:none;
+    font-family:'Comfortaa', cursive ;
+    font-size: 20px;
+    border-radius: 9px;
+    box-shadow:         -10px 12px 7px ; */
+    text-decoration: none;
+    color: white;
+    
+  }
+  .areaimg{
+    width: 280px;
+    height: 220px;
+  }
+  .fontpreço{
+  font-size: 15px;
+  color: grey;
+  font-family:'Comfortaa', cursive ;
+  }
